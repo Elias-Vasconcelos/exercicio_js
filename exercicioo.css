@@ -1,0 +1,46 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+header{
+    justify-content: center;
+    display: flex;
+}
+input{
+    display: flexbox;
+    margin-bottom: 10px;
+    padding: 20px 150px;
+    margin-top: 25px;
+    justify-content: center;
+    margin-left: 700px;
+}
+button{
+    display: flex;
+    margin-bottom: 10px;
+    padding: 20px 150px;
+    margin-top: 25px;
+    justify-content: center;
+    margin-left: 750px;
+}
+.mensagem{
+    background-color: #c00606;
+    padding: 16px 50px; 
+    color: #fff;
+    display: none;
+    margin: 0 650px;
+    align-items: center;
+    justify-content: center;
+}
+.mensagemSucesso{
+    background-color: #27ae60;
+    padding: 16px 50px; 
+    color: #fff;
+    display: none;
+    margin: 0 650px;
+    align-items: center;
+    justify-content: center;
+}
