@@ -1,7 +1,9 @@
         const form = document.querySelector('.FormularioDeValidaçao')
-        const campoA  = document.getElementById('CampoA')
-        const campoB  = document.getElementById('CampoB')
+        let campoA  = document.getElementById('CampoA');
+        let campoB  = document.getElementById('CampoB');
         let Validaform = false
+        campoB = parseInt(campoB).value;
+        campoA = parseInt(campoA).value;
 
     function validaCamposa (campoA, campoB){
         let valoresDosCampos = campoA < campoB;
