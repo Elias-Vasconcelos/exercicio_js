@@ -2,8 +2,7 @@
         let campoA  = document.getElementById('CampoA');
         let campoB  = document.getElementById('CampoB');
         let Validaform = false
-        campoB = parseInt(campoB).value;
-        campoA = parseInt(campoA).value;
+
 
     function validaCamposa (campoA, campoB){
         let valoresDosCampos = campoA < campoB;
@@ -13,7 +12,10 @@
 
     form.addEventListener('submit', function (e){
         e.preventDefault();
-            if(!Validaform){
+        campoB = parseInt(campoB.value);
+        campoA = parseInt(campoA.value);
+
+            if(!Validaform) {
                 document.querySelector('.mensagem').style.display = 'block';
             }else {
                 document.querySelector('.mensagem').style.display = 'none';
