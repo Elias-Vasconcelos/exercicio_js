@@ -1,7 +1,6 @@
         const form = document.querySelector('.FormularioDeValidaçao')
         let campoA  = document.getElementById('CampoA');
         let campoB  = document.getElementById('CampoB');
-        let Validaform = false
 
 
     function validaCamposa (campoA, campoB){
@@ -15,7 +14,7 @@
         campoB = parseInt(campoB.value);
         campoA = parseInt(campoA.value);
 
-            if(!Validaform) {
+            if(!validaCamposa) {
                 document.querySelector('.mensagem').style.display = 'block';
             }else {
                 document.querySelector('.mensagem').style.display = 'none';
