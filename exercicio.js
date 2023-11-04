@@ -1,6 +1,5 @@
         const form = document.querySelector('.FormularioDeValidaçao')
-        let campoA  = document.getElementById('CampoA');
-        let campoB  = document.getElementById('CampoB');
+
 
 
         function validaCampos (campoA, campoB){
@@ -13,6 +12,9 @@
         e.preventDefault();
         
 
+        let campoA  = document.getElementById('CampoA');
+        let campoB  = document.getElementById('CampoB');
+        
         campoB = parseInt(campoB.value);
         campoA = parseInt(campoA.value);
 
